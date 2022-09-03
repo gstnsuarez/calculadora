@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>calculadora</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	
+</head>
+<body>
+	<div class="card">
+        <div class="head">
+            <div class="circle"></div>
+        </div>
+
+        <div class="description">
+            <h3>Gaston Suarez</h3>
+            <p>Javascript Academia Tec</p>
+        </div>
+
+        <div class="contact">      	
+            <a class="icono" href="mailto:gstnmsuarez@gmail.com"><img src="img/correo.png"></a>
+            <a class="icono" href="https://wa.me/5492645071321"><img src="img/whatsapp.png"></a>
+            <a class="icono" href="https://github.com/gstnsuarez"><img src="img/github.png"></a>
+        </div>
+    </div>
+
+	<div class="container">
+		<div class="calculadora">
+		 	<div class="pantalla">
+		 		<div id="valorAnterior"></div>
+		 		<div id="valor"></div>
+			</div>
+		<button onclick="pantalla.borrarTodo()">C</button>
+		<button onclick="pantalla.borrar()">&larr;</button>
+		<button class="operacion" value="dividir">%</button>
+		<button class="operacion" value="multiplicar">*</button>
+		<button class="number">7</button>
+		<button class="number">8</button>
+		<button class="number">9</button>
+		<button class="operacion" value="restar">-</button>
+		<button class="number">4</button>
+		<button class="number">5</button>
+		<button class="number">6</button>
+		<button class="operacion" value="sumar">+</button>
+		<button class="number">1</button>
+		<button class="number">2</button>
+		<button class="number">3</button>
+		<button class="operacion" value="potencia">^</button>
+		<button class="number">0</button>
+		<button class="number">.</button>
+		<button class="operacion" value="raiz">√</button>
+		<button class="operacion" value="igual">=</button>
+
+		</div>
+	 </div>
+
+	 
+<script src="js/calculadora.js" type="text/javascript"></script>
+	<script src="js/display.js" type="text/javascript"></script>
+	<script src="js/index.js" type="text/javascript" defer></script> 
+</body>
+</html>
